@@ -35,6 +35,6 @@ btns_summer = [KeyboardButton("Июнь"), KeyboardButton("Июль"), KeyboardB
 btns_autumn = [KeyboardButton("Сентябрь"), KeyboardButton("Октябрь"), KeyboardButton("Ноябрь"), KeyboardButton("🔙 Назад")]
 
 kb_criterion = ReplyKeyboardMarkup(resize_keyboard=True, selective=True)
-btns_criterion = [KeyboardButton("Дата/Промежуток дат"), KeyboardButton("Район"), KeyboardButton("Год"), KeyboardButton("Оценка"), KeyboardButton("Тег"), KeyboardButton("🔙 Назад")]
+btns_criterion = [KeyboardButton("🔥 Популярное"), KeyboardButton("🌟 Оценка"), KeyboardButton("📆 Дата добавления"), KeyboardButton("#⃣ Тег"), KeyboardButton("🎲 Случайно"), KeyboardButton("🔙 Назад")]
 for btn in btns_criterion:     
     kb_criterion.add(btn)
