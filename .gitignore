@@ -1,0 +1,9 @@
+*.db
+museum_2gis.json
+cafe_2gis.json
+cinema_2gis.json
+ul_cafe_img
+ul_cin_img
+ul_mus_img
+files
+*.pyc
